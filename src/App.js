@@ -1,12 +1,20 @@
 import React from 'react'
-import Customers from './components/customers';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import Home from './pages/Home';
+import Signin from './pages/Signin';
+
 
 
 const App = () => {
   return (
-    <div>
-    <Customers/>
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/eleseGit1' component={Home} exact />
+        <Route path='/eleseGit1/signin' component={Signin} exact />
+      </Switch>
+    </Router>
   )
 }
 
