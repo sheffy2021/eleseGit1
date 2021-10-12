@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/eleseGit1/static/js/main.8dfec33c.chunk.js",
-    "main.js.map": "/eleseGit1/static/js/main.8dfec33c.chunk.js.map",
-    "runtime-main.js": "/eleseGit1/static/js/runtime-main.8c8ef191.js",
-    "runtime-main.js.map": "/eleseGit1/static/js/runtime-main.8c8ef191.js.map",
-    "static/js/2.75ffd4ec.chunk.js": "/eleseGit1/static/js/2.75ffd4ec.chunk.js",
-    "static/js/2.75ffd4ec.chunk.js.map": "/eleseGit1/static/js/2.75ffd4ec.chunk.js.map",
-    "static/js/3.111da9b1.chunk.js": "/eleseGit1/static/js/3.111da9b1.chunk.js",
-    "static/js/3.111da9b1.chunk.js.map": "/eleseGit1/static/js/3.111da9b1.chunk.js.map",
+    "main.js": "/eleseGit1/static/js/main.e8c42936.chunk.js",
+    "main.js.map": "/eleseGit1/static/js/main.e8c42936.chunk.js.map",
+    "runtime-main.js": "/eleseGit1/static/js/runtime-main.224f1868.js",
+    "runtime-main.js.map": "/eleseGit1/static/js/runtime-main.224f1868.js.map",
+    "static/js/2.1a647e20.chunk.js": "/eleseGit1/static/js/2.1a647e20.chunk.js",
+    "static/js/2.1a647e20.chunk.js.map": "/eleseGit1/static/js/2.1a647e20.chunk.js.map",
+    "static/js/3.a5d0ed39.chunk.js": "/eleseGit1/static/js/3.a5d0ed39.chunk.js",
+    "static/js/3.a5d0ed39.chunk.js.map": "/eleseGit1/static/js/3.a5d0ed39.chunk.js.map",
     "index.html": "/eleseGit1/index.html",
-    "static/js/2.75ffd4ec.chunk.js.LICENSE.txt": "/eleseGit1/static/js/2.75ffd4ec.chunk.js.LICENSE.txt"
+    "static/js/2.1a647e20.chunk.js.LICENSE.txt": "/eleseGit1/static/js/2.1a647e20.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c8ef191.js",
-    "static/js/2.75ffd4ec.chunk.js",
-    "static/js/main.8dfec33c.chunk.js"
+    "static/js/runtime-main.224f1868.js",
+    "static/js/2.1a647e20.chunk.js",
+    "static/js/main.e8c42936.chunk.js"
   ]
 }
