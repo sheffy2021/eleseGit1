@@ -13,7 +13,6 @@ const App = () => {
         <Route path='/' component={Home} exact />
         <Route path='/eleseGit1' component={Home} exact />
         <Route path='/signin' component={Signin} exact />
-        <Route path='/eleseGit1/signin' component={Signin} exact />
       </Switch>
     </Router>
   )

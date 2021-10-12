@@ -1,11 +1,10 @@
 import React from 'react'
-import Customers from '../components/customers'
+import TopBar from '../components/navbar/topbar/TopBar'
 
 const Home = () => {
     return (
         <div>
-            <h1>Home Page!!</h1>
-            <Customers/>
+            <TopBar/>
         </div>
     )
 }
