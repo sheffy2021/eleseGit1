@@ -2,10 +2,10 @@ import React from 'react'
 import { ArrowDown, Cover, Nav, NavBtn, NavBtnLink, NavContainer, NavIcon, NavLink, NavLinkLi, NavLinkLiLink, NavLinkUl, NavLogo, NavMenu, NavMenuLi, NavMenuUl } from './Styling'
 import { FaBars } from 'react-icons/fa';
 
-const TopBar = () => {
+const TopBar = ({isOpen, toggle}) => {
     return (
         <div>
-            <Cover></Cover>
+            <Cover isOpen={isOpen} onClick={toggle}></Cover>
             <Nav>
                 <NavContainer>
                     <NavIcon><FaBars /></NavIcon>
