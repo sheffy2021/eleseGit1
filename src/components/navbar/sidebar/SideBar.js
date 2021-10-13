@@ -23,10 +23,10 @@ const Sidebar = ({ isOpen, toggle}) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarMenuList>
-                        <SidebarLink to='media' onClick={toggle}>Media</SidebarLink>
+                        <SidebarLink to='media' onClick={toggle} offset={-190}>Media</SidebarLink>
                     </SidebarMenuList>
                     <SidebarMenuList>
-                        <SidebarLink to='it' onClick={toggle}>IT</SidebarLink>
+                        <SidebarLink to='it' onClick={toggle} offset={-190}>IT</SidebarLink>
                     </SidebarMenuList>
                     <SidebarMenuList>
                         <SidebarLinks onClick={toggleEvent}>Others<ArrowIcon click={click}><ArrowRight /></ArrowIcon></SidebarLinks>

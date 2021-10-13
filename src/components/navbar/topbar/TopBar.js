@@ -9,11 +9,11 @@ const TopBar = ({isOpen, toggle}) => {
             <Nav>
                 <NavContainer>
                     <NavIcon><FaBars /></NavIcon>
-                    <NavLogo>Boiler<span>plate</span></NavLogo>
+                    <NavLogo to='home' offset={-140}>Boiler<span>plate</span></NavLogo>
                     <NavMenu>
                         <NavMenuUl>
-                        <NavMenuLi><NavLink to='media'>Media</NavLink></NavMenuLi>
-                    <NavMenuLi><NavLink to='it'>IT</NavLink></NavMenuLi>
+                        <NavMenuLi><NavLink to='media' offset={-220}>Media</NavLink></NavMenuLi>
+                    <NavMenuLi><NavLink to='it' offset={-220}>IT</NavLink></NavMenuLi>
                     <NavMenuLi>
                         <NavLink to='signup'>Others<ArrowDown /></NavLink>
                         <NavLinkUl>
